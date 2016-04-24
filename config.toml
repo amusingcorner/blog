@@ -12,7 +12,7 @@ googleAnalytics = ""
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
-    description          = "I want to share"
+    description          = "Thoughts, poems and emotional messages from deep within"
     # This will appear on the top left of the navigation bar
     navbarTitle          = "Kuch Ankahi"
     # Social media buttons that appear on the sidebar
@@ -44,11 +44,11 @@ googleAnalytics = ""
 # parms.intro will appear on the sidebar
 # This is optional, but it's suggested to use
 [params.intro]
-    header    = "Kucha Ankahi si Batein"
+    header    = "कुछ अनकही सी बातें"
 
-    paragraph = "Thoughts, poems and emotional messages from deep within <i class='fa fa-hand-peace-o'></i>"
+    paragraph = "Some untold things: Emotional thoughts and feeling from deep within, in form of words <i class='fa fa-hand-peace-o'></i>"
 
-    about     = "I always wanted to write but don't know why I was afraid to share the emotional side of mine."
+    about     = "Times are tough, which is always the case, but this time it's different. It's like you want something/someone so bad in this world but you know that you can't have it in this lifetime, atleast."
 
 # This will also appear on the sidebar.
 # A width of less than 100px is recommended
