@@ -1,0 +1,21 @@
+box: debian
+build:
+  steps:
+    - install-packages:
+        packages: git ssh-client
+    - script:
+        name: initialize git submodules
+        code: |
+              git submodule update --init --recursive
+    - arjen/hugo-build:
+        version: "0.15"
+        theme: hugo-future-imperfect
+        flags: --buildDrafts=false
+deploy:
+  steps:
+    - install-packages:
+        packages: git ssh-client
+    - lukevivier/gh-pages@0.2.1:
+        token: $GIT_TOKEN
+        domain: hugo-wercker.ig.nore.me
+        basedir: public

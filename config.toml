@@ -1,7 +1,9 @@
-baseurl = "http://kuchankahi.github.io"
+baseurl = "http://kuchankahi.github.io/blog/"
 languageCode = "en-us"
 title = "Kuch ankahi si baatein"
 theme = "hugo-future-imperfect"
+contentdir = "content"
+canonifyurls=true
 
 preserveTaxonomyNames = true
 paginate = 3
