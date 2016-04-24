@@ -12,7 +12,11 @@ http://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multipl
 
 
 
+## Run hugo server
+hugo server
 
+## Build hugo site
+hugo -t hugo-future-imperfect
 
-
-
+## Pushing changes
+git push --recurse-submodules=on-demand
