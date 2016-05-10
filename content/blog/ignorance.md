@@ -1,6 +1,6 @@
 +++
 author = ""
-categories = []
+categories = ['thoughts']
 date = "2016-05-10T15:30:55+05:30"
 description = ""
 featured = ""
