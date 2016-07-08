@@ -6,7 +6,7 @@ contentdir = "content"
 canonifyurls=true
 
 preserveTaxonomyNames = true
-paginate = 3
+paginate = 8
 disqusShortname = ""
 googleAnalytics = "UA-47054792-5"
 
