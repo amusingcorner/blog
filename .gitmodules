@@ -1,3 +1,7 @@
 [submodule "themes/hugo-future-imperfect"]
 	path = themes/hugo-future-imperfect
 	url = https://github.com/kuchankahi/hugo-future-imperfect.git
+[submodule "public"]
+	path = public
+	url = git@github.com:amusingcorner/amusingcorner.github.io.git
+	branch = master
