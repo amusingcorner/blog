@@ -21,3 +21,9 @@ hugo -t hugo-future-imperfect
 
 ## Pushing changes
 git push --recurse-submodules=on-demand
+
+## Publishing on Github pages
+https://gohugo.io/hosting-and-deployment/hosting-on-github/
+
+## Setting godaddy for github pages
+https://hackernoon.com/how-to-set-up-godaddy-domain-with-github-pages-a9300366c7b
