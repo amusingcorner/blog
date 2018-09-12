@@ -1,6 +1,6 @@
-baseurl = "http://kuchankahi.github.io/"
+baseurl = "http://amusingcorner.github.io/"
 languageCode = "en-us"
-title = "Kuch ankahi si baatein"
+title = "A Musings Coner"
 theme = "hugo-future-imperfect"
 contentdir = "content"
 canonifyurls=true
@@ -12,9 +12,9 @@ googleAnalytics = "UA-47054792-5"
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
-    description          = "Thoughts, poems and emotional messages from deep within"
+    description          = "Musings from hidden corner of our amusuing brain | thoughts | poems | travel | stories"
     # This will appear on the top left of the navigation bar
-    navbarTitle          = "Kuch Ankahi"
+    navbarTitle          = "A Musings Corner"
     # Social media buttons that appear on the sidebar
     socialAppearAtTop    = false
     socialAppearAtBottom = true
@@ -44,11 +44,11 @@ googleAnalytics = "UA-47054792-5"
 # parms.intro will appear on the sidebar
 # This is optional, but it's suggested to use
 [params.intro]
-    header    = "कुछ अनकही सी बातें"
+    header    = "A Musings Corner"
 
-    paragraph = "Some untold things: Emotional thoughts and feeling from deep within, in form of words <i class='fa fa-hand-peace-o'></i>"
+    paragraph = "Musings from hidden corner of our amusuing brain <i class='fa fa-hand-peace-o'></i>"
 
-    about     = "Times are tough, which is always the case, but this time it's different. It's like you want something/someone so bad in this world but you know that you can't have it in this lifetime, atleast."
+    about     = "Time is tough, which is always the case, but this time it's different. It's like you want something/someone so bad in this world but you know that you can't have it in this lifetime, atleast."
 
 # This will also appear on the sidebar.
 # A width of less than 100px is recommended

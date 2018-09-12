@@ -1,6 +1,6 @@
 ### Creating new hugo site
-- `mkdir kuchankahi`
-- `hugo new site kuchankahi && cd kuchankahi`
+- `mkdir amusingcorner`
+- `hugo new site amusingcorner && cd amusingcorner`
 
 
 ### Multiple git accounts
@@ -10,7 +10,8 @@ https://gist.github.com/jexchan/2351996
 http://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574
 
 
-
+### Handling git submodules being used for hugo themes
+https://stackoverflow.com/a/1032653
 
 ## Run hugo server
 hugo server
