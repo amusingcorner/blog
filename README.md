@@ -24,6 +24,10 @@ git push --recurse-submodules=on-demand
 
 ## Publishing on Github pages
 https://gohugo.io/hosting-and-deployment/hosting-on-github/
+https://discourse.gohugo.io/t/adding-a-theme-as-a-submodule-or-clone/8789
 
 ## Setting godaddy for github pages
 https://hackernoon.com/how-to-set-up-godaddy-domain-with-github-pages-a9300366c7b
+
+## Removing submodules completely
+https://gist.github.com/myusuf3/7f645819ded92bda6677

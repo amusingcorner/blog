@@ -1,7 +1,7 @@
 baseurl = "http://amusingcorner.github.io/"
 languageCode = "en-us"
 title = "A Musings Coner"
-theme = "hugo-future-imperfect"
+theme = "casper-two"
 contentdir = "content"
 canonifyurls=true
 
@@ -11,6 +11,8 @@ disqusShortname = ""
 googleAnalytics = "UA-47054792-5"
 
 [params]
+    title = "A Musings Coner"
+    
     # Sets the meta tag description, usually reserved for the main page
     description          = "Musings from hidden corner of our amusuing brain | thoughts | poems | travel | stories"
     # This will appear on the top left of the navigation bar
@@ -48,7 +50,7 @@ googleAnalytics = "UA-47054792-5"
 
     paragraph = "Musings from hidden corner of our amusuing brain <i class='fa fa-hand-peace-o'></i>"
 
-    about     = "Time is tough, which is always the case, but this time it's different. It's like you want something/someone so bad in this world but you know that you can't have it in this lifetime, atleast."
+    about     = "Wait for it..."
 
 # This will also appear on the sidebar.
 # A width of less than 100px is recommended
@@ -67,13 +69,18 @@ googleAnalytics = "UA-47054792-5"
 [params.postAmount]
     sidebar = 2
     
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+  
 # Set up your menu items in the navigation bar
 # You can use identifier to prepend a font awesome icon to your text
 [[menu.main]]
-    name = "Blog"
+    name = "Posts"
     url = "/blog"
     identifier = "fa fa-newspaper-o"
-    weight = 1
+    weight = 10
 
 # [[menu.main]]
 #     name = "Categories"
