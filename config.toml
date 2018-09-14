@@ -8,11 +8,17 @@ canonifyurls=true
 preserveTaxonomyNames = true
 paginate = 8
 disqusShortname = ""
-googleAnalytics = "UA-47054792-5"
 
 [params]
-    title = "A Musings Coner"
-    
+    title = "A Musings Corner"
+    cover = "/img/main/cover-cosmos.jpg"
+
+    author = "DK"
+    authorAvatar = "/img/main/author-logo.jpg"
+
+    googleAnalytics = "UA-47054792-5"
+
+
     # Sets the meta tag description, usually reserved for the main page
     description          = "Musings from hidden corner of our amusuing brain | thoughts | poems | travel | stories"
     # This will appear on the top left of the navigation bar
@@ -21,7 +27,7 @@ googleAnalytics = "UA-47054792-5"
     socialAppearAtTop    = false
     socialAppearAtBottom = true
     # set this to the section name if section is not post
-    viewMorePostLink     = "/blog/"
+    viewMorePostLink     = "/posts/"
 
 # Optional Params
     categoriesByCount    = true
@@ -63,22 +69,22 @@ googleAnalytics = "UA-47054792-5"
     imperfect = true
     width     = ""
     alt       = "Main logo"
-    
+
 # Adjust the amount of recent posts on the sidebar.
 # This is optional. The default value 5 will be used
 [params.postAmount]
     sidebar = 2
-    
+
 [[menu.main]]
   name = "Home"
   url = "/"
   weight = 200
-  
+
 # Set up your menu items in the navigation bar
 # You can use identifier to prepend a font awesome icon to your text
 [[menu.main]]
     name = "Posts"
-    url = "/blog"
+    url = "/posts"
     identifier = "fa fa-newspaper-o"
     weight = 10
 
@@ -91,7 +97,7 @@ googleAnalytics = "UA-47054792-5"
     name = "About"
     url = "/about"
     weight = 3
-    
+
 # Insert your username and the icon will apear on the page as long as
 # socialAppearAtTop or socialAppearAtBottom is set to true in the params area
 # The social media icons will appear on the sidebar
