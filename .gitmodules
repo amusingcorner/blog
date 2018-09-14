@@ -3,7 +3,7 @@
 	url = https://github.com/kuchankahi/hugo-future-imperfect.git
 [submodule "public"]
 	path = public
-	url = git@github.com:amusingcorner/amusingcorner.github.io.git
+	url = git@github-amusingcorner:amusingcorner/amusingcorner.github.io.git
 	branch = master
 [submodule "themes/casper-two"]
 	path = themes/casper-two
